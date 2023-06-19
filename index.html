@@ -13,24 +13,28 @@
    <header class="header">
       <div class="header-top">
          <img src="images/logo.png" alt="Bose">
-         <img src="images/icons/icon-burger-menu.png" alt="Burger menu">
+         <a href="#menu">
+            <img src="images/icons/icon-burger-menu.png" alt="Burger menu">
+         </a>
       </div>
 
       <div class="header-bottom">
          <img src="images/sound-waves.png" alt="Sound waves">
-         
-         <h1>The world shades.
+         <h1 class="header-title">The world shades.
             <br>
             <span>Your music shines.</span>
          </h1>
       </div>
    </header>
 
-   <div class="menu">
+   <div class="menu" id="menu">
       <div class="menu-top">
          <img src="images/logo.png" alt="Bose">
-         <img src="images/icons/icon-close.png" alt="Close">
+         <a href="#home">
+            <img src="images/icons/icon-close.png" alt="Close">
+         </a>
       </div>
+
       <nav class="nav">
          <a href="#home" class="nav-link">home</a>
          <a href="#recommended" class="nav-link">recommended</a>
@@ -39,11 +43,44 @@
       </nav>
    </div>
 
-   <main>
-      <section id="recommended">
-         <h2>
+   <main class="main">
+      <section id="recommended" class="recommended">
+         <h2 class="recommended-title">
             Recommended
          </h2>
+
+         <div class="recommended-products">
+            <article>
+               <img
+                  src="images/products/bose-portable-smart-speaker.png" alt="Bose portable Smart speaker"
+                  class="product-photo"
+               >
+               <h3 class="product-title">Bose portable Smart speaker</h3>
+               <p class="product-category">Smart home</p>
+               <p class="product-price">$ 399.00</p>
+            </article>
+
+            <article>
+               <img
+                  src="images/products/soundlink-flex-bluetooth-speaker.png" alt="SoundLink Flex Bluetooth speaker"
+                  class="product-photo"
+               >
+               <h3 class="product-title">SoundLink Flex Bluetooth speaker</h3>
+               <p class="product-category">Portable bluetooth</p>
+               <p class="product-price">$ 149.00</p>
+            </article>
+
+            <article>
+               <img
+                  src="images/products/soundlink-color-bluetooth-speaker-ii.png" alt="Bose portable Smart speaker"
+                  class="product-photo"
+               >
+               <h3 class="product-title">SoundLink Color Bluetooth speaker II</h3>
+               <p class="product-category">Portable bluetooth</p>
+               <p class="product-price">$ 129.00</p>
+            </article>
+         </div>
+
       </section>
 
       <section id="categories">
