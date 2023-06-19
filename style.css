@@ -125,3 +125,41 @@ body {
    margin: 0;
    font-weight: 700;
 }
+
+.categories {
+   min-width: 1020px;
+   margin: 0 auto;
+   margin-bottom: 120px;
+}
+
+.categories-title {
+   margin-top: 0;
+   margin-bottom: 64px;
+   font-size: 48px;
+   line-height: 100%;
+   font-weight: 700;
+   text-align: center;
+   letter-spacing: -1.5px;
+}
+
+.category {
+   margin-bottom: 64px;
+}
+
+.category-title {
+   margin-top: 0;
+}
+
+.category-photo {
+   display: flex;
+   gap: 3%;
+   margin-bottom: 16px;
+}
+
+.photo-wide {
+   width: 65%;
+}
+
+.photo-square {
+   width: 32%;
+}
