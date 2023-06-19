@@ -1,6 +1,11 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    margin: 0;
    font-family: 'Inter', sans-serif;
+   color: #292929;
 }
 
 .header {
@@ -21,6 +26,31 @@ body {
    justify-content: space-between;
 }
 
-.header-bottom {
+.menu {
+   box-sizing: border-box;
+   height: 100vh;
+   padding: 64px 120px;
+   background: #E8EFF9;
+}
 
+.menu-top {
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 64px;
+}
+
+.nav {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
+
+.nav-link {
+   text-decoration: none;
+   color: #292929;
+   font-size: 22px;
+   font-weight: 700;
+   line-height: 22px;
+   text-transform: uppercase;
+   letter-spacing: 2px;
 }

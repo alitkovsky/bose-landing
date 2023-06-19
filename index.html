@@ -9,7 +9,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
 </head>
-<body>
+<body id="home">
    <header class="header">
       <div class="header-top">
          <img src="images/logo.png" alt="Bose">
@@ -25,26 +25,28 @@
          </h1>
       </div>
    </header>
-   
-   <menu class="menu">
+
+   <div class="menu">
       <div class="menu-top">
-         <ul class="menu-items">
-            <li><a href="#" class="menu_link"></a></li>
-            <li><a href="#" class="menu_link"></a></li>
-            <li><a href="#" class="menu_link"></a></li>
-            <li><a href="#" class="menu_link"></a></li>
-         </ul>
+         <img src="images/logo.png" alt="Bose">
+         <img src="images/icons/icon-close.png" alt="Close">
       </div>
-   </menu>
+      <nav class="nav">
+         <a href="#home" class="nav-link">home</a>
+         <a href="#recommended" class="nav-link">recommended</a>
+         <a href="#categories" class="nav-link">categories</a>
+         <a href="#howtobuy" class="nav-link">how to buy</a>
+      </nav>
+   </div>
 
    <main>
-      <section>
+      <section id="recommended">
          <h2>
             Recommended
          </h2>
       </section>
 
-      <section>
+      <section id="categories">
          <h2>
             Brose Brose
             <br>
@@ -52,7 +54,7 @@
          </h2>
       </section>
 
-      <section>
+      <section id="howtobuy">
          <h2>
             Why buy direct
             <br>
