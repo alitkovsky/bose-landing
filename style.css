@@ -6,13 +6,15 @@ body {
    margin: 0;
    font-family: 'Inter', sans-serif;
    color: #292929;
+   font-size: 16px;
+   line-height: 140%;
 }
 
 .header {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   box-sizing: border-box; /* define size for border and content inside */
+   box-sizing: border-box;
    height: 100vh;
    padding: 64px 120px;
    background-image: url(images/headphones-image-bg.png);
@@ -42,7 +44,7 @@ body {
    right: 0;
    left: 0;
    transform: translateX(-100%);
-   transition: transform 500s ease-in-out;
+   transition: transform 500ms ease-in-out;
    box-sizing: border-box;
    height: 100vh;
    padding: 64px 120px;
@@ -50,7 +52,7 @@ body {
 }
 
 .menu:target {
-   transform: translateX(0);
+   transform: translateX(-0%);
 }
 
 .menu-top {
@@ -127,7 +129,7 @@ body {
 }
 
 .categories {
-   min-width: 1020px;
+   max-width: 1020px;
    margin: 0 auto;
    margin-bottom: 120px;
 }
@@ -162,4 +164,53 @@ body {
 
 .photo-square {
    width: 32%;
+}
+
+.how-to-buy {
+   max-width: 1020px;
+   margin: 0 auto;
+   display: flex;
+   gap: 24px;
+}
+
+.how-to-buy-title {
+   flex-basis: 50%;
+   margin-top: 0;
+   margin-bottom: 64px;
+   font-size: 48px;
+   line-height: 100%;
+   font-weight: 700;
+   letter-spacing: -1.5px;
+
+}
+
+.how-to-buy-content {
+   flex-basis: 50%;
+}
+
+.how-to-buy-benefits {
+   display: flex;
+   flex-direction: column;
+   gap: 16px;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+   margin-bottom: 40px;
+   font-weight: 700;
+}
+
+.how-to-buy-description {
+   line-height: 27px;
+   font-size: 16px;
+}
+
+.footer {
+   position: sticky;
+   bottom: 0;
+   z-index: -1;
+   height: 460px;
+   background-image: url(../images/footer-bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
