@@ -13,14 +13,28 @@
 <body id="home">
    <header class="header">
       <div class="header-top">
-         <img src="images/logo.png" alt="Bose">
+         <img
+            src="images/logo.png"
+            alt="Bose"
+            class="logo"
+         >
          <a href="#menu">
-            <img src="images/icons/icon-burger-menu.png" alt="Burger menu">
+            <img 
+               src="images/icons/icon-burger-menu.png"
+               alt="Burger menu"
+               onmouseover="this.src='images/icons/icon-burger-menu-hover.png';"
+               onmouseout="this.src='images/icons/icon-burger-menu.png';"
+               class="burger-menu"
+            >
          </a>
       </div>
 
       <div class="header-bottom">
-         <img src="images/sound-waves.png" alt="Sound waves">
+         <img
+            src="images/sound-waves.png"
+            alt="Sound waves"
+            class="sound-waves"
+            >
          <h1 class="header-title">
             The world shades.
             <br>
@@ -31,12 +45,22 @@
 
    <div class="menu" id="menu">
       <div class="menu-top">
-         <img src="images/logo.png" alt="Bose">
+         <img
+            src="images/logo.png"
+            alt="Bose"
+            class="logo"
+         >
          <a href="#home">
-            <img
-               src="images/icons/icon-close.png"
-               alt="Close"
-            >
+            <picture>
+               <source 
+                  media="(max-width: 576px)"
+                  srcset="images/icons/icon-close-mobile.png">
+               <source 
+                  media="(max-width: 1024px)"
+                  srcset="images/icons/icon-close.png">
+               <img src="images/icons/icon-close.png" 
+               alt="Close" class="close">
+            </picture>
          </a>
       </div>
 
