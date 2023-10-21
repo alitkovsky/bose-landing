@@ -99,6 +99,8 @@ body {
    top: 0;
    left: 0;
    transition: opacity 0.3s ease-in-out;
+   width: 24px;
+   height: 24px;
 }
 
 .burger-menu .img-normal {
@@ -107,7 +109,7 @@ body {
 
 .burger-menu .img-hover {
    opacity: 0;
-   z-index: 2;
+   z-index: 1;
 }
 
 .burger-menu:hover .img-normal {
@@ -117,10 +119,16 @@ body {
 .burger-menu:hover .img-hover {
    opacity: 1;
 }
+
+.menu:target .burger-menu {
+   opacity: 0;
+}
+
 /* #endregion header */
 /* #region menu */
 .menu {
    position: fixed;
+   z-index: 1;
    top: 0;
    right: 0;
    left: 0;
