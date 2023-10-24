@@ -22,12 +22,11 @@ website features a responsive and intuitive design, with easy-to-use navigation 
 
 <div align='center'>
 <img src='../assets/bose-landing.vercel.app.png?raw=true'/>
-![Demo Animation](../assets/bose-landing.vercel.app.png?raw=true)
 </div>
 
 <br><br>
 <h3 align='center'>Hover menu 👇</h3>
 
 <div align='center'>
-<img src=''/>
-![Demo Animation](../assets/bose-landing.vercel.app_hover_menu.png?raw=true)
+<img src='../assets/bose-landing.vercel.app_hover_menu.png?raw=true'/>
+</div>
