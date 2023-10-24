@@ -3,7 +3,7 @@
 <p>This is a minimalist landing page with the promo of new products of a famous brand. The site is built with HTML and CSS. This
 website features a responsive and intuitive design, with easy-to-use navigation and all required components that put the focus on the products.</p>
 
-<p>Figma layout for this site can be found<a href='https://www.figma.com/file/OMjQNb3hg1LKMV4OwyQ3Ao/BOSE?node-id=0%3A1'>here</a></p>
+<p>Figma layout for this site can be found <a href='https://www.figma.com/file/OMjQNb3hg1LKMV4OwyQ3Ao/BOSE?node-id=0%3A1'>here</a></p>
 
 👉 Live Demo: <a href='https://bose-landing.vercel.app/'>Bose Landing</a>
 
@@ -21,7 +21,7 @@ website features a responsive and intuitive design, with easy-to-use navigation 
 <h3 align='center'>Home Page 🏡</h3>
 
 <div align='center'>
-<img src=''/>
+<img src='../assets/bose-landing.vercel.app.png?raw=true'/>
 ![Demo Animation](../assets/bose-landing.vercel.app.png?raw=true)
 </div>
 
