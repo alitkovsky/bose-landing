@@ -66,6 +66,10 @@ body {
    justify-content: space-between;
 }
 
+.gap {
+   flex: 1 1 auto;
+}
+
 .header-title {
    margin-top: 40px;
    margin-bottom: 0;
@@ -88,10 +92,69 @@ body {
    }
 }
 
+/* .header-icons {
+   display: flex;
+}
+
+.phone-call-menu {
+   margin-right: 32px;
+}
+
+.phone-call-menu a {
+   text-decoration: none;
+}
+
+.burger-menu div {
+   align-self: flex-end;
+   justify-self: flex-end;
+   width: 32px;
+   height: 32px;
+}
+
+.burger-menu a {
+   text-decoration: none;
+}
+
+.burger-menu img {
+   transition: opacity 0.3s ease-in-out;
+   width: 32px;
+   height: 32px;
+} */
+
+.call-menu {
+   display: flex;
+   margin-right: 32px;
+   height: 32px;
+   align-items: center;
+}
+
+.call-menu p {
+   color: #292929;
+   text-align: right;
+   font-family: 'Inter', sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 16px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   opacity: 0;
+   transition: opacity 0.3s ease-in-out;
+}
+
+.call-menu img {
+   width: 32px;
+   height: 32px;
+}
+
+.call-menu:hover p {
+   opacity: 1;
+}
+
 .burger-menu div {
    position: relative;
-   width: 24px;
-   height: 24px;
+   width: 32px;
+   height: 32px;
 }
 
 .burger-menu img {
@@ -99,8 +162,8 @@ body {
    top: 0;
    left: 0;
    transition: opacity 0.3s ease-in-out;
-   width: 24px;
-   height: 24px;
+   width: 32px;
+   height: 32px;
 }
 
 .burger-menu .img-normal {
@@ -168,6 +231,38 @@ body {
    }
 }
 
+.menu-contacts {
+   margin-top: 50px;
+}
+
+.menu-contacts p {
+   color: #292929;
+   font-family: 'Inter', sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 27px;
+   text-transform: uppercase;
+}
+
+p.action {
+   color: #292929;
+   font-family: 'Inter', sans-serif;
+   font-size: 12px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: 16px;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.line {
+   height: 1px;
+   background: #292929;
+   width: 119px;
+   margin-top: -8px;
+}
+
 /* #endregion menu */
 /* #region nav */
 .nav {
@@ -184,6 +279,11 @@ body {
    line-height: 22px;
    text-transform: uppercase;
    letter-spacing: 2px;
+}
+
+.nav-link:hover {
+   cursor: pointer;
+   text-decoration: underline;
 }
 /* #endregion nav */
 /* #region main */
